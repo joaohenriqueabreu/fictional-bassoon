@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+        mongo:
+                build: ./mongo
+                container_name: mongo
+                networks: iauu_net
+networks:
+        iauu_net:
